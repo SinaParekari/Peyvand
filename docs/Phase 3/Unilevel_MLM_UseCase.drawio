@@ -1,0 +1,321 @@
+<mxfile host="Electron" modified="2026-11-12T13:05:50.036Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" version="22.1.16" etag="FkHRN8uv_EiRUgGRO74g" type="device" pages="6">
+  <diagram id="pg0" name="0 Overview">
+    <mxGraphModel dx="1615" dy="955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pg0-3" value="Customer&lt;br&gt;(مشتری نهایی)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="60" y="60" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pg0-4" value="Member&lt;br&gt;(بازاریاب شبکه)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="60" y="260" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pg0-5" value="Operator&lt;br&gt;(اپراتور عملیات)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="60" y="460" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pg0-6" value="Manager&lt;br&gt;(ناظر شبکه)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="60" y="660" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pg0-7" value="Super Admin&lt;br&gt;(مدیر ارشد سامانه)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="60" y="860" width="40" height="80" as="geometry" />
+        </mxCell>
+        <object label="1. Public Subsystem&lt;br&gt;UC-01 to UC-03&lt;br&gt;&lt;i&gt;(click → page)&lt;/i&gt;" link="data:page/id,pg1" id="pg0-8">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+            <mxGeometry x="600" y="50" width="300" height="100" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="2. Member Portal&lt;br&gt;UC-04 to UC-11&lt;br&gt;&lt;i&gt;(click → page)&lt;/i&gt;" link="data:page/id,pg2" id="pg0-9">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+            <mxGeometry x="600" y="250" width="300" height="100" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="3. Operations Panel&lt;br&gt;UC-12 to UC-14&lt;br&gt;&lt;i&gt;(click → page)&lt;/i&gt;" link="data:page/id,pg3" id="pg0-10">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+            <mxGeometry x="600" y="450" width="300" height="100" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="4. Supervisor Panel&lt;br&gt;UC-15 to UC-17&lt;br&gt;&lt;i&gt;(click → page)&lt;/i&gt;" link="data:page/id,pg4" id="pg0-11">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+            <mxGeometry x="600" y="650" width="300" height="100" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="5. Super Admin Core&lt;br&gt;UC-18 to UC-22&lt;br&gt;&lt;i&gt;(click → page)&lt;/i&gt;" link="data:page/id,pg5" id="pg0-12">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+            <mxGeometry x="600" y="850" width="300" height="100" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="pg0-13" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" parent="1" source="pg0-3" target="pg0-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg0-14" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" parent="1" source="pg0-4" target="pg0-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg0-15" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" parent="1" source="pg0-4" target="pg0-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg0-16" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" parent="1" source="pg0-5" target="pg0-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg0-17" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" parent="1" source="pg0-6" target="pg0-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg0-18" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" parent="1" source="pg0-7" target="pg0-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg0-19" value="" style="endArrow=block;endFill=0;endSize=12;html=1;rounded=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.3;entryX=0;entryY=0.7;" parent="1" source="pg0-7" target="pg0-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg0-20" value="" style="endArrow=block;endFill=0;endSize=12;html=1;rounded=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.3;entryX=0;entryY=0.7;" parent="1" source="pg0-7" target="pg0-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="pg1" name="1 Public">
+    <mxGraphModel dx="2100" dy="1242" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pg1-3" value="Customer&lt;br&gt;(مشتری نهایی)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="60" y="100" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-4" value="Member&lt;br&gt;(بازاریاب شبکه)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="60" y="400" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-5" value="1. Public Subsystem (زیرسیستم عمومی - بدون لاگین)" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;startSize=36;swimlaneFillColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="260" y="20" width="420" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-6" value="UC-01: Public Mock Payment&lt;br&gt;(پرداخت شبیه‌سازی‌شده با لینک عمومی)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="305" y="100" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-7" value="UC-02: Public Order Tracking&lt;br&gt;(استعلام عمومی وضعیت مرسوله)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="305" y="250" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-8" value="UC-03: Member Registration&lt;br&gt;(ثبت‌نام با یا بدون کد معرف)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="305" y="400" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-9" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" parent="1" source="pg1-3" target="pg1-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-10" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" parent="1" source="pg1-3" target="pg1-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-11" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" parent="1" source="pg1-4" target="pg1-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="pg2" name="2 Member Portal">
+    <mxGraphModel dx="1615" dy="955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pg2-3" value="Member&lt;br&gt;(بازاریاب شبکه)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="60" y="350" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pg2-4" value="2. Member Portal (پنل بازاریاب شبکه)" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=14;startSize=36;swimlaneFillColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="260" y="20" width="800" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="pg2-5" value="UC-04: Referral &amp;amp; Unilevel Tree View&lt;br&gt;(لینک دعوت و مشاهده درخت زیرمجموعه)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="290" y="70" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pg2-6" value="UC-09: Volume &amp;amp; Rank Dashboard&lt;br&gt;(مشاهده کارنامه PBV، Group BV و رتبه)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="290" y="200" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pg2-7" value="UC-10: Wallet &amp;amp; Immutable Ledger&lt;br&gt;(مشاهده موجودی سه‌گانه و دفترکل)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="290" y="330" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pg2-8" value="UC-11: Submit Payout Request&lt;br&gt;(ثبت درخواست برداشت وجه)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="290" y="460" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pg2-9" value="UC-05: Customer Address Book CRUD&lt;br&gt;(مدیریت دفترچه مشتریان)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="690" y="70" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pg2-10" value="UC-06: Create Retail Order&lt;br&gt;(ثبت سفارش خرده‌فروشی)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="690" y="200" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pg2-11" value="UC-07: Order Settlement&lt;br&gt;(پرداخت از کیف پول یا تولید لینک پرداخت)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="690" y="330" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pg2-12" value="UC-08: Cancel Order (Pre-Shipped)&lt;br&gt;(لغو سفارش پیش از ارسال)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="690" y="460" width="330" height="80" as="geometry" />
+        </mxCell>
+        <object label="UC-01: Public Mock Payment&lt;br&gt;(پرداخت شبیه‌سازی‌شده با لینک عمومی)&lt;br&gt;(see Page 1)" link="data:page/id,pg1" id="pg2-13">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;dashed=1;fontSize=12;" parent="1" vertex="1">
+            <mxGeometry x="1180" y="330" width="330" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="pg2-14" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" parent="1" source="pg2-3" target="pg2-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="100" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg2-15" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" parent="1" source="pg2-3" target="pg2-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg2-16" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" parent="1" source="pg2-3" target="pg2-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg2-17" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" parent="1" source="pg2-3" target="pg2-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg2-18" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" parent="1" source="pg2-3" target="pg2-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="100" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg2-19" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" parent="1" source="pg2-3" target="pg2-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg2-20" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" parent="1" source="pg2-3" target="pg2-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg2-21" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" parent="1" source="pg2-3" target="pg2-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg2-22" value="«include»" style="endArrow=open;dashed=1;html=1;rounded=0;strokeWidth=1.5;fontSize=12;labelBackgroundColor=#ffffff;" parent="1" source="pg2-10" target="pg2-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg2-23" value="«include»" style="endArrow=open;dashed=1;html=1;rounded=0;strokeWidth=1.5;fontSize=12;labelBackgroundColor=#ffffff;" parent="1" source="pg2-10" target="pg2-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg2-24" value="«extend» (Public Link)" style="endArrow=open;dashed=1;html=1;rounded=0;strokeWidth=1.5;fontSize=12;labelBackgroundColor=#ffffff;" parent="1" source="pg2-11" target="pg2-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="pg3" name="3 Operations">
+    <mxGraphModel dx="1050" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pg3-3" value="Operator&lt;br&gt;(اپراتور عملیات)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="60" y="250" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pg3-4" value="Super Admin&lt;br&gt;(مدیر ارشد سامانه)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="60" y="500" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pg3-5" value="3. Operations Panel (پنل عملیات روزمره)" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=14;startSize=36;swimlaneFillColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="260" y="20" width="420" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="pg3-6" value="UC-12: Order Fulfillment &amp;amp; Tracking&lt;br&gt;(پردازش ارسال و ثبت کد رهگیری)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="305" y="100" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pg3-7" value="UC-13: Operational Order Cancel&lt;br&gt;(لغو عملیاتی سفارش)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="305" y="250" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pg3-8" value="UC-14: Process Payout Requests&lt;br&gt;(بررسی شبا، تایید/رد و ثبت پرداخت پایا)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="305" y="400" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pg3-9" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" parent="1" source="pg3-3" target="pg3-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg3-10" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" parent="1" source="pg3-3" target="pg3-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg3-11" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" parent="1" source="pg3-3" target="pg3-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg3-12" value="" style="endArrow=block;endFill=0;endSize=12;html=1;rounded=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;" parent="1" source="pg3-4" target="pg3-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="pg4" name="4 Supervisor">
+    <mxGraphModel dx="1050" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pg4-3" value="Manager&lt;br&gt;(ناظر شبکه)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="60" y="250" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pg4-4" value="Super Admin&lt;br&gt;(مدیر ارشد سامانه)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="60" y="500" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pg4-5" value="4. Supervisor Panel (پنل نظارت شبکه)" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=14;startSize=36;swimlaneFillColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="260" y="20" width="420" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="pg4-6" value="UC-15: Approve New Members&lt;br&gt;(بررسی و تایید ثبت‌نام اعضای جدید)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="305" y="100" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pg4-7" value="UC-16: Global Tree &amp;amp; Suspension&lt;br&gt;(پایش کل درخت و تعلیق/رفع تعلیق اعضا)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="305" y="250" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pg4-8" value="UC-17: Analytical &amp;amp; Financial Reports&lt;br&gt;(گزارش‌های تحلیلی فروش، BV و پورسانت)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="305" y="400" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pg4-9" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" parent="1" source="pg4-3" target="pg4-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg4-10" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" parent="1" source="pg4-3" target="pg4-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg4-11" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" parent="1" source="pg4-3" target="pg4-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg4-12" value="" style="endArrow=block;endFill=0;endSize=12;html=1;rounded=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;" parent="1" source="pg4-4" target="pg4-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="pg5" name="5 Super Admin">
+    <mxGraphModel dx="1050" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pg5-3" value="Super Admin&lt;br&gt;(مدیر ارشد سامانه)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="60" y="350" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pg5-4" value="5. Super Admin Core (هسته پیکربندی و مدیریت ارشد)" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=14;startSize=36;swimlaneFillColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="260" y="20" width="420" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="pg5-5" value="UC-18: Product &amp;amp; BV Catalog&lt;br&gt;(مدیریت محصولات، قیمت‌ها و BV)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="305" y="90" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pg5-6" value="UC-19: Dynamic MLM Rules Setup&lt;br&gt;(پیکربندی پویا رتبه‌ها و درصدها)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="305" y="220" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pg5-7" value="UC-20: Sponsor Reassignment&lt;br&gt;(تغییر معرف عضو در درخت)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="305" y="350" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pg5-8" value="UC-21: Trigger Monthly Closing&lt;br&gt;(اجرای دستی موتور محاسبات پایان ماه)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="305" y="480" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pg5-9" value="UC-22: Staff &amp;amp; RBAC Management&lt;br&gt;(مدیریت حساب مدیران و اپراتورها)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="305" y="610" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pg5-10" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" parent="1" source="pg5-3" target="pg5-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg5-11" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" parent="1" source="pg5-3" target="pg5-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg5-12" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" parent="1" source="pg5-3" target="pg5-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg5-13" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" parent="1" source="pg5-3" target="pg5-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pg5-14" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" parent="1" source="pg5-3" target="pg5-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

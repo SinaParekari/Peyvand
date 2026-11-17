@@ -1,0 +1,39 @@
+@startuml
+skinparam linetype ortho
+skinparam shadowing false
+skinparam roundcorner 10
+skinparam packageStyle rectangle
+left to right direction
+
+actor "Member\n(بازاریاب شبکه)" as Member
+
+rectangle "2. Member Portal (پنل بازاریاب شبکه)" {
+  together {
+    usecase "UC-04: Referral & Unilevel Tree View\n(لینک دعوت و مشاهده درخت زیرمجموعه)" as UC04
+    usecase "UC-09: Volume & Rank Dashboard\n(مشاهده کارنامه PBV، Group BV و رتبه)" as UC09
+    usecase "UC-10: Wallet & Immutable Ledger\n(مشاهده موجودی سه‌گانه و دفترکل)" as UC10
+    usecase "UC-11: Submit Payout Request\n(ثبت درخواست برداشت وجه)" as UC11
+  }
+  together {
+    usecase "UC-05: Customer Address Book CRUD\n(مدیریت دفترچه مشتریان)" as UC05
+    usecase "UC-06: Create Retail Order\n(ثبت سفارش خرده‌فروشی)" as UC06
+    usecase "UC-07: Order Settlement\n(پرداخت از کیف پول یا تولید لینک پرداخت)" as UC07
+    usecase "UC-08: Cancel Order (Pre-Shipped)\n(لغو سفارش پیش از ارسال)" as UC08
+  }
+}
+
+usecase "UC-01: Public Mock Payment\n(see Page 1)" as UC01 #lightgray
+
+Member --> UC04
+Member --> UC09
+Member --> UC10
+Member --> UC11
+Member --> UC05
+Member --> UC06
+Member --> UC07
+Member --> UC08
+
+UC06 ..> UC05 : <<include>>
+UC06 ..> UC07 : <<include>>
+UC07 ..> UC01 : <<extend>>\n(Public Link)
+@enduml

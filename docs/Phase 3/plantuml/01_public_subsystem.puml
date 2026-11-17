@@ -1,0 +1,20 @@
+@startuml
+skinparam linetype ortho
+skinparam shadowing false
+skinparam roundcorner 10
+skinparam packageStyle rectangle
+left to right direction
+
+actor "Customer\n(مشتری نهایی)" as Customer
+actor "Member\n(بازاریاب شبکه)" as Member
+
+rectangle "1. Public Subsystem (زیرسیستم عمومی - بدون لاگین)" {
+  usecase "UC-01: Public Mock Payment\n(پرداخت شبیه‌سازی‌شده با لینک عمومی)" as UC01
+  usecase "UC-02: Public Order Tracking\n(استعلام عمومی وضعیت مرسوله)" as UC02
+  usecase "UC-03: Member Registration\n(ثبت‌نام با یا بدون کد معرف)" as UC03
+}
+
+Customer --> UC01
+Customer --> UC02
+Member --> UC03
+@enduml

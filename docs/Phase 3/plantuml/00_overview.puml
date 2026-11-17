@@ -1,0 +1,29 @@
+@startuml
+skinparam linetype ortho
+skinparam shadowing false
+skinparam roundcorner 10
+skinparam packageStyle rectangle
+left to right direction
+
+actor "Customer\n(مشتری نهایی)" as Customer
+actor "Member\n(بازاریاب شبکه)" as Member
+actor "Operator\n(اپراتور عملیات)" as Operator
+actor "Manager\n(ناظر شبکه)" as Manager
+actor "Super Admin\n(مدیر ارشد سامانه)" as SuperAdmin
+
+SuperAdmin -|> Manager
+SuperAdmin -|> Operator
+
+rectangle "1. Public Subsystem\nUC-01 to UC-03" as P1
+rectangle "2. Member Portal\nUC-04 to UC-11" as P2
+rectangle "3. Operations Panel\nUC-12 to UC-14" as P3
+rectangle "4. Supervisor Panel\nUC-15 to UC-17" as P4
+rectangle "5. Super Admin Core\nUC-18 to UC-22" as P5
+
+Customer --> P1
+Member --> P1
+Member --> P2
+Operator --> P3
+Manager --> P4
+SuperAdmin --> P5
+@enduml

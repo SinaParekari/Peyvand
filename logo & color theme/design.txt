@@ -1,0 +1,355 @@
+# PEYVAND — Brand Identity & Visual Design Guidelines
+
+## 1. Brand Overview
+
+**Brand Name:** PEYVAND  
+**Persian Brand Name:** پیوند  
+**Brand Tagline (English):** One Network. Clear Operations.  
+**Brand Tagline (Persian):** یک شبکه، مدیریت شفاف
+
+PEYVAND is a modern enterprise software brand focused on network management, business operations, and organizational transparency.
+
+The visual identity should communicate:
+
+- Trust and reliability
+- Professionalism and stability
+- Connectivity and collaboration
+- Clarity and operational efficiency
+- Modern technology
+
+### Overall UI Design Style
+
+The overall website design must follow a **Modern Minimalist Enterprise SaaS** aesthetic.
+
+The interface should be:
+- Minimal, clean, modern, and professional.
+- Visually balanced, with generous whitespace and well-organized layouts.
+- Based on simple geometric shapes and consistent spacing.
+- Built with subtle borders, soft shadows, and moderate corner radii.
+- Free from unnecessary gradients, decorative elements, excessive animations, and visual clutter.
+- Focused on usability, readability, and clear information hierarchy.
+
+Use a refined dashboard design inspired by modern enterprise SaaS products. Every page should feel consistent, polished, lightweight, and easy to navigate.
+
+The goal is to create a premium-looking business management platform, not a flashy or overly decorative website.
+---
+
+## 2. Brand Color Palette
+
+The following colors are the official foundation of the PEYVAND visual identity.
+
+### Primary Brand Colors
+
+| Color Name | HEX | Purpose |
+|---|---|---|
+| Midnight Navy | `#152238` | Primary brand color |
+| Royal Blue | `#3867E8` | Primary interactive accent |
+| Teal | `#19A995` | Secondary brand accent |
+
+### Neutral Colors
+
+| Color Name | HEX | Purpose |
+|---|---|---|
+| Cloud White | `#F5F7FB` | Main application background |
+| White | `#FFFFFF` | Cards, panels, and surfaces |
+| Primary Text | `#182230` | Main text color |
+| Muted Text | `#64748B` | Secondary text and descriptions |
+| Border | `#E3E8F0` | Borders, dividers, and separators |
+
+### Semantic Colors
+
+| Color Name | HEX | Purpose |
+|---|---|---|
+| Success | `#159B76` | Successful operations and positive states |
+| Warning | `#E6A23C` | Pending operations and warnings |
+| Danger | `#D9534F` | Errors, failures, and destructive actions |
+| Info | `#3867E8` | Informational messages and notices |
+
+Semantic colors must be used consistently and must not replace the primary brand palette.
+
+---
+
+## 3. Color Usage Guidelines
+
+### Midnight Navy — `#152238`
+
+Midnight Navy is the dominant brand color.
+
+Use it for:
+- Main sidebar background
+- Primary brand elements
+- Logo typography and dark logo variations
+- Important navigation areas
+- Dark headers and selected structural elements
+
+The sidebar should generally use Midnight Navy with white or light-gray text and icons.
+
+### Royal Blue — `#3867E8`
+
+Royal Blue is the main interactive color.
+
+Use it for:
+- Primary buttons
+- Active navigation indicators
+- Links
+- Selected tabs
+- Focus indicators
+- Interactive controls
+- Important highlights and data visualizations
+
+Avoid using Royal Blue as the background for large sections of the application.
+
+### Teal — `#19A995`
+
+Teal is a secondary accent color.
+
+Use it selectively for:
+- Positive visual highlights
+- Network-related visual elements
+- Growth indicators
+- Secondary actions
+- Selected icons and decorative brand details
+
+Do not use Teal as the default color for every button or interactive component.
+
+### Cloud White — `#F5F7FB`
+
+Use Cloud White as the main page background to create a clean and comfortable workspace.
+
+### White — `#FFFFFF`
+
+Use White for:
+- Dashboard cards
+- Tables and content panels
+- Forms
+- Modals and dialogs
+- Dropdown menus
+
+### Text and Border Colors
+
+Use `#182230` for primary text, `#64748B` for secondary text, and `#E3E8F0` for subtle borders and separators.
+
+---
+
+## 4. Recommended Color Distribution
+
+The approximate visual distribution should follow this direction:
+
+- 60% — White and light neutral colors
+- 25% — Midnight Navy
+- 10% — Royal Blue
+- 5% — Teal
+
+These percentages are general visual guidelines, not strict technical requirements.
+
+The interface should remain predominantly light, while Midnight Navy provides the strong enterprise identity.
+
+---
+
+## 5. Logo Guidelines
+
+The PEYVAND logo consists of two main elements:
+
+1. A custom geometric letter **N** symbol.
+2. The brand wordmark.
+
+### Logo Symbol
+
+The symbol should be based on a custom geometric interpretation of the letter N.
+
+The design direction is:
+- Minimal and recognizable
+- Geometric and balanced
+- Inspired by connected paths and network nodes
+- Modern and technology-oriented
+- Simple enough to work at small sizes
+
+The symbol should subtly communicate connectivity and network structure without looking like a generic network diagram.
+
+Avoid:
+- Pyramid-shaped symbols
+- Generic MLM or referral marketing icons
+- Coins, money symbols, or upward arrows
+- Excessive nodes and decorative connections
+- Overly complicated gradients and visual effects
+
+### Bilingual Logo Versions
+
+Create two independent but visually consistent logo variations.
+
+**English Version:**
+- Wordmark: PEYVAND
+- Tagline: One Network. Clear Operations.
+
+**Persian Version:**
+- Wordmark: پیوند
+- Tagline: یک شبکه، مدیریت شفاف
+
+Both versions must use the same logo symbol, color system, proportions, and visual style. Only the typography and wordmark direction should change.
+
+The Persian wordmark must use proper Persian letterforms and connected typography. Avoid artificial or poorly rendered Persian lettering.
+
+### Required Logo Variations
+
+Prepare the following versions:
+
+1. Full-color English logo
+2. Full-color Persian logo
+3. English monochrome logo
+4. Persian monochrome logo
+5. White logo for dark backgrounds
+6. Standalone N symbol
+7. App icon and favicon variation
+
+The standalone N symbol must remain recognizable without the wordmark.
+
+---
+
+## 6. Typography
+
+Typography must support both Persian and English interfaces.
+
+### Persian Font: Vazirmatn
+
+Use **Vazirmatn** as the primary Persian typeface.
+
+Recommended usage:
+- Page titles: Vazirmatn Bold or SemiBold
+- Section headings: Vazirmatn SemiBold
+- Body text: Vazirmatn Regular
+- Buttons: Vazirmatn Medium
+- Forms and labels: Vazirmatn Regular or Medium
+- Tables: Vazirmatn Regular
+
+Vazirmatn should be used consistently throughout the Persian interface.
+
+### English Font: Inter
+
+Use **Inter** as the primary English typeface.
+
+Recommended usage:
+- Headings: Inter SemiBold or Bold
+- Body text: Inter Regular
+- Buttons: Inter Medium or SemiBold
+- Numeric data: Inter Medium
+
+The English and Persian typography systems should have visually consistent hierarchy and spacing.
+
+Avoid mixing multiple unrelated font families.
+
+---
+
+## 7. Application Theme and UI Appearance
+
+The application should follow a clean, modern enterprise dashboard design.
+
+### General Layout
+
+- Light application background
+- Dark Midnight Navy sidebar
+- White content cards and panels
+- Subtle borders
+- Moderate corner rounding
+- Consistent spacing
+- Clear typography hierarchy
+- Minimal shadows
+- Simple and recognizable icons
+
+### Sidebar
+
+- Background: `#152238`
+- Main text: `#FFFFFF`
+- Secondary text: `#AAB9D0`
+- Active navigation: Royal Blue or a subtle blue highlight
+- Icons: White or muted light blue
+
+### Main Content
+
+- Background: `#F5F7FB`
+- Cards: `#FFFFFF`
+- Headings: `#182230`
+- Secondary text: `#64748B`
+- Borders: `#E3E8F0`
+
+### Buttons
+
+**Primary Button:**
+- Background: `#3867E8`
+- Text: White
+- Hover: A slightly darker blue
+
+**Secondary Button:**
+- Background: White or a light neutral
+- Text: Midnight Navy
+- Border: `#E3E8F0`
+
+**Danger Button:**
+- Background: `#D9534F`
+- Text: White
+
+Buttons should have consistent heights, spacing, and corner radii.
+
+### Cards and Tables
+
+- White backgrounds
+- Subtle borders
+- Minimal shadows
+- Consistent internal padding
+- Clear separation between headings, content, and actions
+
+Avoid excessive gradients, strong shadows, unnecessary animations, and overly colorful dashboard components.
+
+---
+
+## 8. Persian and RTL Design Requirements
+
+The primary application language is Persian.
+
+The interface must be designed with native Right-to-Left (RTL) support from the beginning.
+
+Requirements:
+- Use Persian as the default interface language.
+- Set the document language to `fa` and direction to `rtl`.
+- Place the primary sidebar on the right.
+- Align Persian text naturally to the right.
+- Ensure forms, navigation, tables, dropdowns, and dialogs follow RTL conventions.
+- Use Vazirmatn throughout the Persian interface.
+- Display dates using the Persian (Jalali) calendar.
+- Display monetary values in Toman.
+- Keep database dates and internal numeric values in standard machine-readable formats.
+- Ensure mixed Persian and English content is displayed correctly.
+
+Use CSS logical properties such as `margin-inline-start`, `padding-inline-end`, and `text-align: start` instead of relying unnecessarily on left/right-specific positioning.
+
+The design should also remain adaptable to a future English LTR interface.
+
+---
+
+## 9. Design Principles
+
+All visual components must follow these principles:
+
+1. Consistency: Use the same color, typography, spacing, and component rules throughout the application.
+2. Clarity: Important information must be easy to identify.
+3. Simplicity: Avoid unnecessary visual complexity.
+4. Professionalism: The interface must look like a reliable business management platform.
+5. Accessibility: Maintain sufficient contrast between text and backgrounds.
+6. Responsiveness: The design must work on desktop, tablet, and mobile screens.
+7. Scalability: The visual system should support future modules and features without requiring a complete redesign.
+
+---
+
+## 10. Final Brand Identity Summary
+
+**Brand:** PEYVAND  
+**Persian Name:** پیوند  
+**Visual Direction:** Modern Enterprise — Navy Dominant  
+**Logo Concept:** Geometric Connected N  
+**English Typeface:** Inter  
+**Persian Typeface:** Vazirmatn  
+**Primary Color:** Midnight Navy `#152238`  
+**Interactive Color:** Royal Blue `#3867E8`  
+**Secondary Accent:** Teal `#19A995`  
+**Main Background:** Cloud White `#F5F7FB`
+
+The final result should establish PEYVAND as a professional, modern, trustworthy, and technology-oriented enterprise software brand, with a consistent bilingual identity and a clean Persian-first application interface.

@@ -1,0 +1,23 @@
+@startuml
+skinparam linetype ortho
+skinparam shadowing false
+skinparam roundcorner 10
+skinparam packageStyle rectangle
+left to right direction
+
+actor "Super Admin\n(مدیر ارشد سامانه)" as SuperAdmin
+
+rectangle "5. Super Admin Core (هسته پیکربندی و مدیریت ارشد)" {
+  usecase "UC-18: Product & BV Catalog\n(مدیریت محصولات، قیمت‌ها و BV)" as UC18
+  usecase "UC-19: Dynamic MLM Rules Setup\n(پیکربندی پویا رتبه‌ها و درصدها)" as UC19
+  usecase "UC-20: Sponsor Reassignment\n(تغییر معرف عضو در درخت)" as UC20
+  usecase "UC-21: Trigger Monthly Closing\n(اجرای دستی موتور محاسبات پایان ماه)" as UC21
+  usecase "UC-22: Staff & RBAC Management\n(مدیریت حساب مدیران و اپراتورها)" as UC22
+}
+
+SuperAdmin --> UC18
+SuperAdmin --> UC19
+SuperAdmin --> UC20
+SuperAdmin --> UC21
+SuperAdmin --> UC22
+@enduml
